@@ -1,0 +1,45 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+pressedKey                                                        0160h        1
+number                                                            0161h       10
+point                                                             016Bh        1
+count_point                                                       016Ch        1
+blinking                                                          016Dh        1
+count_blink                                                       016Eh        1
+minute                                                            016Fh        1
+second                                                            0170h        1
+last_second                                                       0171h        1
+hour_alarm                                                        0172h        1
+minute_alarm                                                      0173h        1
+minute_timer                                                      0174h        1
+second_timer                                                      0175h        1
+alarm_on                                                          0176h        1
+count                                                             0177h        1
+switch_key                                                        0178h        1
+release                                                           0179h        1
+starting_countdown                                                017Ah        1
+defuse                                                            017Bh        1
+detonate                                                          017Ch        1
+defuse_bomb_flag                                                  017Dh        1
+_seed                                                             017Eh        4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+e_hour_alarm                                                      0000h        1
+e_minute_alarm                                                    0001h        1
+e_minute_timer                                                    0002h        1
+e_second_timer                                                    0003h        1
+alarm_mode                                                        0004h        1
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+comp                                                              R5           1
+random_led                                                        R6,R7        2
+blink_led                                                         R4           1
+digit                                                             R9           1
+digit_12                                                          R10,R11      2
+digit_34                                                          R12,R13      2
+hour                                                              R8           1

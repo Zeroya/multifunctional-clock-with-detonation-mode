@@ -1,0 +1,5 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"Dangerous clock.c" LINE:351
+rtc_get_time DSTACK_USAGE:6 DSTACK_LEVEL:6 FILE:"C:\2.AVR\cvavr\lib\ds1307.lib" LINE:45
+bcd2bin DSTACK_USAGE:1 DSTACK_LEVEL:7 FILE:"C:\2.AVR\cvavr\lib\bcd.lib" LINE:10
+timer1_ovf_isr DSTACK_USAGE:12 DSTACK_LEVEL:19 FILE:"Dangerous clock.c" LINE:141
+send_74HC595_dig DSTACK_USAGE:2 DSTACK_LEVEL:21 FILE:"Dangerous clock.c" LINE:263
