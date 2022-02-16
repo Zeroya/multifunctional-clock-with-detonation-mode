@@ -1,1 +1,1 @@
-# multifunctional-clock-with-detonation-mode
+Hi, this is my diploma project.
